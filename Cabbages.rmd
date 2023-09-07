@@ -41,7 +41,7 @@ ggplot(veggy, aes(x = Cult, y = VitC)) +
   labs(x = "Cultivar", y = "Vitamin C")
  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
-Per box plot, C52 shows a higher level of vitC C. Culture 39 has a lower level. By looking at the two boxes you can clearly see they are disjointed, indicating a high probability of a significant difference. 
+Per box plot, C52 shows a higher level of vitC C. Culture 39 has a lower level. By looking at the two boxes you can clearly see they are disjointed, indicating a high probability of a significant difference.  
 
 
 ### Numerical Descriptive Results
