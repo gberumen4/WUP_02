@@ -68,3 +68,8 @@ The p-value of 0.00000003405 provides strong evidence of a significant differenc
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+In my analysis, I created a boxplot chart to visually examine and compare the Vitamin C levels across various cultivar groups. The chart allowed me to gain insights into the central tendency, variability, and potential outliers in the Vitamin C data for each specific cultivar. When notches were included and did not overlap, it indicated statistically significant differences in median Vitamin C levels among the cultivar groups, making it easy for me to make meaningful comparisons between these groups.
+
+
