@@ -19,7 +19,7 @@ veggy <- cabbages
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
  The cabbages data from the MASS package is loaded into a dataframe called veggy. Complete this report by answering the following two questions  
  
-### Is there a difference in average VitC between c39 and c52 cultivation methods?  
+### Is there a difference in average VitC between c39 and c52 cultivation methods?
 
 # Methods
 
@@ -34,6 +34,15 @@ veggy <- cabbages
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+ggplot(veggy, aes(x = Cult, y = VitC)) +
+   geom_boxplot(fill = "lavender", outlier.colour = "red", outlier.shape = 1, notch = TRUE) +
+  labs(x = "Cultivar", y = "Vitamin C")
+ theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+Per box plot, C52 shows a higher level of vitC C. Culture 39 has a lower level. By looking at the two boxes you can clearly see they are disjointed, indicating a high probability of a significant difference. 
+
 
 ### Numerical Descriptive Results
 
