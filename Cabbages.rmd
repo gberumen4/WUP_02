@@ -47,6 +47,13 @@ Per box plot, C52 shows a higher level of vitC C. Culture 39 has a lower level. 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+The data shows that Q3 of C39 is smaller tha the Q1 of C52 indicating that they are indeed disjointed. 
+
+
+
 
 ## Inferential Results
 
